@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.nav{
+    display: block;
+    width: 100%;
+    height: 15%;
+    background-color: blueviolet;
+}
+ 
+.menu, .leftItem ul, .rightItem ul{
+    display: flex;
+    height: 100%;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftItem , .rightItem {
+    height: 100%;
+    flex-basis: 100%;
+}
+
+.leftItem ul, .rightItem ul{
+    flex-direction: column;
+}
+
+.leftItem ul a, .rightItem ul a, table, table a, .userInfo a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.myLogo {
+    height: 100px;
+    width: 100px;
+}
+
+.image{
+    height: 400px;
+    width: 400px;
+}
+
+.info{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.user1, .user2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+table{
+    margin: auto;
+    width: 80%;
+    height: 40%;   
+}
+
+.userPage{
+    display: flex;  
+}
+.userPhoto{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.userInfo {
+    margin: 4%;
+    width:30%;
+}
+
+.userPage .username {
+    font-size: 100px;
+}
+
+.images {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.images > img{
+    height: 100%;
+    width: 50%;
+}
+
+.images .v {
+    display: flex;
+    width: 50%; 
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-items: flex-start; */
+    justify-content: space-around;
+}
+
+.v-left, .v-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.images .v img {
+    height: 50%;
+}
+
+#about{
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+}
